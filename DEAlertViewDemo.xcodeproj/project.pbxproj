@@ -12,7 +12,6 @@
 		B3CCCE6A19E96FE50043C366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CCCE6919E96FE50043C366 /* ViewController.m */; };
 		B3CCCE6D19E96FE50043C366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CCCE6B19E96FE50043C366 /* Main.storyboard */; };
 		B3CCCE6F19E96FE50043C366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CCCE6E19E96FE50043C366 /* Images.xcassets */; };
-		B3CCCE7219E96FE50043C366 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3CCCE7019E96FE50043C366 /* LaunchScreen.xib */; };
 		B3CCCE8919E970490043C366 /* DEAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CCCE8819E970490043C366 /* DEAlertView.m */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		B3CCCE6919E96FE50043C366 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B3CCCE6C19E96FE50043C366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3CCCE6E19E96FE50043C366 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B3CCCE7119E96FE50043C366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B3CCCE8719E970490043C366 /* DEAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEAlertView.h; path = DEAlertView/DEAlertView.h; sourceTree = "<group>"; };
 		B3CCCE8819E970490043C366 /* DEAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEAlertView.m; path = DEAlertView/DEAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +65,6 @@
 				B3CCCE6919E96FE50043C366 /* ViewController.m */,
 				B3CCCE6B19E96FE50043C366 /* Main.storyboard */,
 				B3CCCE6E19E96FE50043C366 /* Images.xcassets */,
-				B3CCCE7019E96FE50043C366 /* LaunchScreen.xib */,
 				B3CCCE6119E96FE50043C366 /* Supporting Files */,
 				B3CCCE8719E970490043C366 /* DEAlertView.h */,
 				B3CCCE8819E970490043C366 /* DEAlertView.m */,
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3CCCE6D19E96FE50043C366 /* Main.storyboard in Resources */,
-				B3CCCE7219E96FE50043C366 /* LaunchScreen.xib in Resources */,
 				B3CCCE6F19E96FE50043C366 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,14 +166,6 @@
 				B3CCCE6C19E96FE50043C366 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B3CCCE7019E96FE50043C366 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3CCCE7119E96FE50043C366 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
