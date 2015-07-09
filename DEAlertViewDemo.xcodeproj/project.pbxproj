@@ -13,19 +13,8 @@
 		B3CCCE6D19E96FE50043C366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CCCE6B19E96FE50043C366 /* Main.storyboard */; };
 		B3CCCE6F19E96FE50043C366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CCCE6E19E96FE50043C366 /* Images.xcassets */; };
 		B3CCCE7219E96FE50043C366 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3CCCE7019E96FE50043C366 /* LaunchScreen.xib */; };
-		B3CCCE7E19E96FE50043C366 /* DEAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CCCE7D19E96FE50043C366 /* DEAlertViewDemoTests.m */; };
 		B3CCCE8919E970490043C366 /* DEAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CCCE8819E970490043C366 /* DEAlertView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B3CCCE7819E96FE50043C366 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B3CCCE5619E96FE50043C366 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B3CCCE5D19E96FE50043C366;
-			remoteInfo = DEAlertViewDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B3CCCE5E19E96FE50043C366 /* DEAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,22 +27,12 @@
 		B3CCCE6C19E96FE50043C366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3CCCE6E19E96FE50043C366 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B3CCCE7119E96FE50043C366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B3CCCE7719E96FE50043C366 /* DEAlertViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DEAlertViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3CCCE7C19E96FE50043C366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3CCCE7D19E96FE50043C366 /* DEAlertViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEAlertViewDemoTests.m; sourceTree = "<group>"; };
 		B3CCCE8719E970490043C366 /* DEAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEAlertView.h; path = DEAlertView/DEAlertView.h; sourceTree = "<group>"; };
 		B3CCCE8819E970490043C366 /* DEAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEAlertView.m; path = DEAlertView/DEAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B3CCCE5B19E96FE50043C366 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3CCCE7419E96FE50043C366 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				B3CCCE6019E96FE50043C366 /* DEAlertViewDemo */,
-				B3CCCE7A19E96FE50043C366 /* DEAlertViewDemoTests */,
 				B3CCCE5F19E96FE50043C366 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				B3CCCE5E19E96FE50043C366 /* DEAlertViewDemo.app */,
-				B3CCCE7719E96FE50043C366 /* DEAlertViewDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,23 +84,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B3CCCE7A19E96FE50043C366 /* DEAlertViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				B3CCCE7D19E96FE50043C366 /* DEAlertViewDemoTests.m */,
-				B3CCCE7B19E96FE50043C366 /* Supporting Files */,
-			);
-			path = DEAlertViewDemoTests;
-			sourceTree = "<group>";
-		};
-		B3CCCE7B19E96FE50043C366 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3CCCE7C19E96FE50043C366 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,24 +104,6 @@
 			productReference = B3CCCE5E19E96FE50043C366 /* DEAlertViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B3CCCE7619E96FE50043C366 /* DEAlertViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3CCCE8419E96FE50043C366 /* Build configuration list for PBXNativeTarget "DEAlertViewDemoTests" */;
-			buildPhases = (
-				B3CCCE7319E96FE50043C366 /* Sources */,
-				B3CCCE7419E96FE50043C366 /* Frameworks */,
-				B3CCCE7519E96FE50043C366 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B3CCCE7919E96FE50043C366 /* PBXTargetDependency */,
-			);
-			name = DEAlertViewDemoTests;
-			productName = DEAlertViewDemoTests;
-			productReference = B3CCCE7719E96FE50043C366 /* DEAlertViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +115,6 @@
 				TargetAttributes = {
 					B3CCCE5D19E96FE50043C366 = {
 						CreatedOnToolsVersion = 6.0.1;
-					};
-					B3CCCE7619E96FE50043C366 = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = B3CCCE5D19E96FE50043C366;
 					};
 				};
 			};
@@ -194,7 +132,6 @@
 			projectRoot = "";
 			targets = (
 				B3CCCE5D19E96FE50043C366 /* DEAlertViewDemo */,
-				B3CCCE7619E96FE50043C366 /* DEAlertViewDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,13 +144,6 @@
 				B3CCCE6D19E96FE50043C366 /* Main.storyboard in Resources */,
 				B3CCCE7219E96FE50043C366 /* LaunchScreen.xib in Resources */,
 				B3CCCE6F19E96FE50043C366 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3CCCE7519E96FE50043C366 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,23 +161,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3CCCE7319E96FE50043C366 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B3CCCE7E19E96FE50043C366 /* DEAlertViewDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B3CCCE7919E96FE50043C366 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B3CCCE5D19E96FE50043C366 /* DEAlertViewDemo */;
-			targetProxy = B3CCCE7819E96FE50043C366 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B3CCCE6B19E96FE50043C366 /* Main.storyboard */ = {
@@ -365,40 +279,6 @@
 			};
 			name = Release;
 		};
-		B3CCCE8519E96FE50043C366 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DEAlertViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DEAlertViewDemo.app/DEAlertViewDemo";
-			};
-			name = Debug;
-		};
-		B3CCCE8619E96FE50043C366 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = DEAlertViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DEAlertViewDemo.app/DEAlertViewDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,14 +298,7 @@
 				B3CCCE8319E96FE50043C366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		B3CCCE8419E96FE50043C366 /* Build configuration list for PBXNativeTarget "DEAlertViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B3CCCE8519E96FE50043C366 /* Debug */,
-				B3CCCE8619E96FE50043C366 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
